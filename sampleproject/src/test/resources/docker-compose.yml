@@ -1,0 +1,6 @@
+web:
+  image: "tomcat:8.5.50-jdk8-adoptopenjdk-hotspot"
+  ports:
+    - "8080:8080"
+redis:
+  image: "redis:6"
